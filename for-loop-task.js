@@ -28,6 +28,17 @@ let sum =0;
 for(let oddSum = 91; oddSum <= 129; oddSum++){
     if(oddSum % 2 === 1){
         sum = sum + oddSum;
-        console.log("The odd sum: ", sum);
+        // console.log("The odd sum: ", sum);
+    }
+}
+
+// Task 5
+// Sum of the even numbers from 51 to 85
+
+let initSum = 0;
+for(let evenSum = 51; evenSum <= 85; evenSum++){
+    if(evenSum % 2 === 0){
+        initSum = initSum + evenSum;
+        console.log("The even sum is: ", initSum);
     }
 }
