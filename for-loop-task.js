@@ -17,6 +17,17 @@ for(let num = 61; num <= 100; num++){
 // Find all the even numbers from 78 to 98
 for(let evenNum = 78; evenNum <= 98; evenNum++){
     if(evenNum % 2 === 0){
-        console.log("Even Number is: ", evenNum);
+        // console.log("Even Number is: ", evenNum);
+    }
+}
+
+// Task 4
+// Display the sum of odd numbers from 91 to 129
+
+let sum =0;
+for(let oddSum = 91; oddSum <= 129; oddSum++){
+    if(oddSum % 2 === 1){
+        sum = sum + oddSum;
+        console.log("The odd sum: ", sum);
     }
 }
