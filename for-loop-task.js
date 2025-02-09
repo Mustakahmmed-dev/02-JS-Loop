@@ -47,5 +47,11 @@ for(let evenSum = 51; evenSum <= 85; evenSum++){
 // Generate a multiplication table for number 9
 
 for(let multi = 1; multi <= 10; multi++){
-    console.log(multi * 9);
+    // console.log(multi * 9);
+}
+
+// Task 7
+// Implement a countdown timer that counts down from 81 to 65.
+for(let cDown = 81; cDown >= 65; cDown--){
+    console.log("Remaning: ", cDown);
 }
