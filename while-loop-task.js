@@ -45,7 +45,16 @@ let evenSumInit = 206;
 while(evenSumInit <= 311){
     if(evenSumInit % 2 === 0){
         evenSum = evenSum + evenSumInit;
-        console.log("Sum of Even ", evenSum);
+        // console.log("Sum of Even ", evenSum);
     }
     evenSumInit++;
+}
+
+// Task 6
+// As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
+let ersa = 1;
+let ersaMultiplier = 5;
+while(ersa <= 10){
+    console.log(ersaMultiplier, " * ", ersa, " = ", ersa * ersaMultiplier );
+    ersa++;
 }
