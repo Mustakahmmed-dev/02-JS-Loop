@@ -14,6 +14,17 @@ while(initVal){ //I can also use true in the parameter
     if(sumVal >= 100){
         break;
     }
-    console.log("Sum val: ", initVal, " : ", sumVal);
+    // console.log("Sum val: ", initVal, " : ", sumVal);
     initVal++;
+}
+
+
+// Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)
+for(let firstNum = 2; firstNum <= 100; firstNum++){
+    console.log("First Num: ", firstNum);
+
+    if(Math.sqrt(firstNum) % 1 === 0){
+        break;
+    }
+   
 }
