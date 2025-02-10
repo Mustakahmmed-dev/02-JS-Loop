@@ -25,3 +25,15 @@ while(initEven <= 98){
     }
     initEven++;
 }
+
+// Task 4
+// Display sum of all the odd numbers from 81 to 131.
+let oddSum = 0;
+let oddSumInit = 81;
+while(oddSumInit <= 131){
+    if(oddSumInit % 2 === 1){
+        oddSum = oddSum + oddSumInit;
+        console.log("odd Sum: ", oddSum);
+    }
+    oddSumInit++;
+}
