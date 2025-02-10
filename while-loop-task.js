@@ -11,8 +11,17 @@ while(commitment <= 60){
 let initOdd = 61;
 while(initOdd <= 100){
     if(initOdd % 2 === 1){
-        console.log("The odd num: ", initOdd);
+        // console.log("The odd num: ", initOdd);
     }
     initOdd++;
 }
 
+// Task 3 
+// Find all the even numbers from 78 to 98.
+let initEven = 78;
+while(initEven <= 98){
+    if(initEven % 2 === 0){
+        console.log("The even num: ", initEven);
+    }
+    initEven++;
+}
