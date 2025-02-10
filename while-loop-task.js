@@ -58,3 +58,11 @@ while(ersa <= 10){
     console.log(ersaMultiplier, " * ", ersa, " = ", ersa * ersaMultiplier );
     ersa++;
 }
+
+// Task 7
+// Implement a countdown timer that counts down from 21 to 15.
+let initVal = 21;
+while(initVal >= 15){
+    console.log("Countdown ", initVal);
+   
+}
