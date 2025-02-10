@@ -33,7 +33,19 @@ let oddSumInit = 81;
 while(oddSumInit <= 131){
     if(oddSumInit % 2 === 1){
         oddSum = oddSum + oddSumInit;
-        console.log("odd Sum: ", oddSum);
+        // console.log("odd Sum: ", oddSum);
     }
     oddSumInit++;
+}
+
+// Task 5
+// Display sum of all the even numbers from 206 to 311.
+let evenSum = 0;
+let evenSumInit = 206;
+while(evenSumInit <= 311){
+    if(evenSumInit % 2 === 0){
+        evenSum = evenSum + evenSumInit;
+        console.log("Sum of Even ", evenSum);
+    }
+    evenSumInit++;
 }
